@@ -1,0 +1,28 @@
+{
+  "slug": "curves",
+  "title": "Curve Editor",
+  "repository": "https://github.com/siliconjungle/ink-app-curves",
+  "directory": "web",
+  "entry": "index.html",
+  "desktop": {
+    "entry": "curves",
+    "context": "self",
+    "icon": "web/icon.svg",
+    "window": {
+      "width": 1200,
+      "height": 800
+    },
+    "dropTypes": [
+      "application/json"
+    ]
+  },
+  "capabilities": [
+    "world.read",
+    "world.write",
+    "desktop.open"
+  ],
+  "backend": {
+    "entry": "server.mjs",
+    "idleSafe": true
+  }
+}
