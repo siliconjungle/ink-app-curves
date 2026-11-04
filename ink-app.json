@@ -14,7 +14,13 @@
     },
     "dropTypes": [
       "application/json"
-    ]
+    ],
+    "preview": {
+      "fileTypes": [
+        "ink-table",
+        "ink-table-row"
+      ]
+    }
   },
   "capabilities": [
     "world.read",
