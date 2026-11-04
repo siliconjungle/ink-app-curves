@@ -3,7 +3,7 @@
   "files": {
     "web/sdk/live-query.js": "bff9ae3322c41de933ae6e466b3189909aaf4e455a82b4056f03e5c9ab16c88a",
     "web/sdk/app-api.js": "7c8e0c04fe8179878802734fadd3f5128170cfc1d3104ef6ecab9b290631ecfb",
-    "web/sdk/desktop-keys.js": "aacb9ade0a6eb7ecb9382b25d6bf60850967ac91f077418d4f556b4d39858360",
+    "web/sdk/desktop-keys.js": "2db46e6b8df75d3cfb634ff2ae47eb343a3995648200b1afa00f4db4b657a0e7",
     "web/sdk/interop-bridge.js": "fcb0e0caf4957d2c0093ae390912b407698d39dd5aff4d4236b2a49aa86f9594",
     "web/sdk/command-bridge.js": "3c11bc66b47a514852d246224925c326a69c21723ca06407715daf64f505bcc3",
     "web/sdk/virtual.js": "4f409e681f8772869680cd2391c377593b906e2f177085d97ebffad3b982f2d4",
@@ -17,5 +17,12 @@
     "scripts/sdk/commands.js": "88ae828387df1a931704b37f76ddf52a2cd1704d85ea4e2e6d629e2d9e25f621"
   },
   "database": "Existing generic Ink table record format and query/watch APIs; no curve-specific SDK extension.",
-  "distribution": "Bundled Ink OS SDK assets"
+  "distribution": "Bundled Ink OS SDK assets",
+  "quickLookUpdate": {
+    "repository": "https://github.com/siliconjungle/ink-os-platform",
+    "commit": "46ce0e65344ca1d4a825ce9b7440268844c4dd4d",
+    "files": [
+      "web/sdk/desktop-keys.js"
+    ]
+  }
 }
